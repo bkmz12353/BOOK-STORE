@@ -15,4 +15,10 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BookShop.BL\BookShop.BL.csproj" />
+    <ProjectReference Include="..\BookShop.DL\BookShop.DL.csproj" />
+    <ProjectReference Include="..\BookShop.SL\BookShop.SL.csproj" />
+  </ItemGroup>
+
 </Project>

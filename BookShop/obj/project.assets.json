@@ -1526,6 +1526,58 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "BookShop.BL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BookShop.DL": "1.0.0",
+          "BookShop.SL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookShop.BL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.BL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "BookShop.DL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.10",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.10",
+          "Microsoft.AspNetCore.Identity.UI": "3.1.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10"
+        },
+        "compile": {
+          "bin/placeholder/BookShop.DL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.DL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "BookShop.SL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BookShop.DL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BookShop.SL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookShop.SL.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -5756,10 +5808,28 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "BookShop.BL/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.BL/BookShop.BL.csproj",
+      "msbuildProject": "../BookShop.BL/BookShop.BL.csproj"
+    },
+    "BookShop.DL/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.DL/BookShop.DL.csproj",
+      "msbuildProject": "../BookShop.DL/BookShop.DL.csproj"
+    },
+    "BookShop.SL/1.0.0": {
+      "type": "project",
+      "path": "../BookShop.SL/BookShop.SL.csproj",
+      "msbuildProject": "../BookShop.SL/BookShop.SL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "BookShop.BL >= 1.0.0",
+      "BookShop.DL >= 1.0.0",
+      "BookShop.SL >= 1.0.0",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 3.1.10",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.10",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.10",
@@ -5794,7 +5864,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.BL\\BookShop.BL.csproj": {
+              "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.BL\\BookShop.BL.csproj"
+            },
+            "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj": {
+              "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj"
+            },
+            "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj": {
+              "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -4,6 +4,212 @@
     "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop\\BookShop.csproj": {}
   },
   "projects": {
+    "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.BL\\BookShop.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.BL\\BookShop.BL.csproj",
+        "projectName": "BookShop.BL",
+        "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.BL\\BookShop.BL.csproj",
+        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj": {
+                "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj"
+              },
+              "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj": {
+                "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj",
+        "projectName": "BookShop.DL",
+        "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj",
+        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj",
+        "projectName": "BookShop.SL",
+        "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj",
+        "packagesPath": "C:\\Users\\Илья\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Илья\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj": {
+                "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop\\BookShop.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +233,17 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.BL\\BookShop.BL.csproj": {
+                "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.BL\\BookShop.BL.csproj"
+              },
+              "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj": {
+                "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.DL\\BookShop.DL.csproj"
+              },
+              "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj": {
+                "projectPath": "D:\\Projects\\BOOK-SHOP\\BookShop\\BookShop.SL\\BookShop.SL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

@@ -24,6 +24,9 @@
     ".NETCoreApp,Version=v3.1": {
       "BookShop/1.0.0": {
         "dependencies": {
+          "BookShop.BL": "1.0.0",
+          "BookShop.DL": "1.0.0",
+          "BookShop.SL": "1.0.0",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.10",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.10",
           "Microsoft.AspNetCore.Identity.UI": "3.1.10",
@@ -1455,6 +1458,43 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "BookShop.BL/1.0.0": {
+        "dependencies": {
+          "BookShop.DL": "1.0.0",
+          "BookShop.SL": "1.0.0"
+        },
+        "runtime": {
+          "BookShop.BL.dll": {}
+        },
+        "compile": {
+          "BookShop.BL.dll": {}
+        }
+      },
+      "BookShop.DL/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.10",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.10",
+          "Microsoft.AspNetCore.Identity.UI": "3.1.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.10"
+        },
+        "runtime": {
+          "BookShop.DL.dll": {}
+        },
+        "compile": {
+          "BookShop.DL.dll": {}
+        }
+      },
+      "BookShop.SL/1.0.0": {
+        "dependencies": {
+          "BookShop.DL": "1.0.0"
+        },
+        "runtime": {
+          "BookShop.SL.dll": {}
+        },
+        "compile": {
+          "BookShop.SL.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3784,6 +3824,21 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "BookShop.BL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookShop.DL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookShop.SL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

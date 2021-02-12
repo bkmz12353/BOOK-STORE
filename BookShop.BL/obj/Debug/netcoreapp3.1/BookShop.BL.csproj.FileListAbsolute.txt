@@ -1,0 +1,14 @@
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\obj\Debug\netcoreapp3.1\BookShop.BL.csprojAssemblyReference.cache
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\obj\Debug\netcoreapp3.1\BookShop.BL.AssemblyInfoInputs.cache
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\obj\Debug\netcoreapp3.1\BookShop.BL.AssemblyInfo.cs
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\obj\Debug\netcoreapp3.1\BookShop.BL.csproj.CoreCompileInputs.cache
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\bin\Debug\netcoreapp3.1\BookShop.BL.deps.json
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\bin\Debug\netcoreapp3.1\BookShop.BL.dll
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\bin\Debug\netcoreapp3.1\BookShop.BL.pdb
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\bin\Debug\netcoreapp3.1\BookShop.DL.dll
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\bin\Debug\netcoreapp3.1\BookShop.SL.dll
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\bin\Debug\netcoreapp3.1\BookShop.DL.pdb
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\bin\Debug\netcoreapp3.1\BookShop.SL.pdb
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\obj\Debug\netcoreapp3.1\BookShop.BL.csproj.CopyComplete
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\obj\Debug\netcoreapp3.1\BookShop.BL.dll
+D:\Projects\BOOK-SHOP\BookShop\BookShop.BL\obj\Debug\netcoreapp3.1\BookShop.BL.pdb

@@ -90,3 +90,9 @@ D:\Projects\BOOK-SHOP\BookShop\BookShop\obj\Debug\netcoreapp3.1\BookShop.csproj.
 D:\Projects\BOOK-SHOP\BookShop\BookShop\obj\Debug\netcoreapp3.1\BookShop.dll
 D:\Projects\BOOK-SHOP\BookShop\BookShop\obj\Debug\netcoreapp3.1\BookShop.pdb
 D:\Projects\BOOK-SHOP\BookShop\BookShop\obj\Debug\netcoreapp3.1\BookShop.genruntimeconfig.cache
+D:\Projects\BOOK-SHOP\BookShop\BookShop\bin\Debug\netcoreapp3.1\BookShop.BL.dll
+D:\Projects\BOOK-SHOP\BookShop\BookShop\bin\Debug\netcoreapp3.1\BookShop.DL.dll
+D:\Projects\BOOK-SHOP\BookShop\BookShop\bin\Debug\netcoreapp3.1\BookShop.SL.dll
+D:\Projects\BOOK-SHOP\BookShop\BookShop\bin\Debug\netcoreapp3.1\BookShop.BL.pdb
+D:\Projects\BOOK-SHOP\BookShop\BookShop\bin\Debug\netcoreapp3.1\BookShop.DL.pdb
+D:\Projects\BOOK-SHOP\BookShop\BookShop\bin\Debug\netcoreapp3.1\BookShop.SL.pdb
