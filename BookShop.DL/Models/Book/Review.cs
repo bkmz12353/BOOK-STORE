@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookShop.DL.Models
 {
-   public class ReviewModel
+   public class Review
     {
         [Key]
         [Column("Id"), Required, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -27,6 +27,6 @@ namespace BookShop.DL.Models
         public virtual IdentityUser Owner { get; set; }
         [ForeignKey(nameof(Book)), Required]
         public int ReviewBookID { get; set; }
-        public virtual BookModel Book { get; set; }
+        public virtual Book Book { get; set; }
     }
 }

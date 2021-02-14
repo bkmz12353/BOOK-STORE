@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookShop.DL.Models
 {
-    public class BookModel
+    public class Book
     {
         [Key]
         [Column("Id"), Required, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -21,7 +21,7 @@ namespace BookShop.DL.Models
         public double Price { get; set; }
         [Column("Count"), Required]
         public int Count { get; set; }
-        public ICollection<ReviewModel> Reviews { get; set; }
+        public ICollection<Review> Reviews { get; set; }
 
     }
 }

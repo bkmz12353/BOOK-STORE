@@ -14,7 +14,7 @@ namespace BookShop.DL
         {
         }
 
-        public DbSet<BookModel> Book { get; set; }
-        public DbSet<ReviewModel> Review { get; set; }
+        public DbSet<Book> Book { get; set; }
+        public DbSet<Review> Review { get; set; }
     }
 }
