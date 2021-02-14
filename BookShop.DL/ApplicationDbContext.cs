@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using BookShop.DL.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BookShop.Data
+namespace BookShop.DL
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -12,5 +13,8 @@ namespace BookShop.Data
             : base(options)
         {
         }
+
+        public DbSet<BookModel> Book { get; set; }
+        public DbSet<ReviewModel> Review { get; set; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using BookShop.Models;
+﻿using BookShop.DL.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;

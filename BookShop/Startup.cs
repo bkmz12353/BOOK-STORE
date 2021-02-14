@@ -1,4 +1,5 @@
-using BookShop.Data;
+using BookShop.DL;
+using BookShop.DL.Migrations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
