@@ -10,6 +10,6 @@ namespace BookShop.DL.Repository
             IQueryable<T> GetAll();
             Task<bool> InsertAsync(T entity);
             Task<bool> UpdateAsync(T entity);
-            Task<bool> DeleteAsync(T entity);
+            Task<bool> DeleteAsync(K id);
         }
 }

@@ -14,16 +14,16 @@ namespace BookShop.DL.Repository
             _dbContext = dbContext;
         }
 
-        public async Task<bool> DeleteAsync(Book entity)
+        public async Task<bool> DeleteAsync(int Id)
         {
-            var BookReviews = _dbContext.Review.Where(t => t.ReviewBookID == entity.Id).ToList();
+            var BookReviews = _dbContext.Review.Where(t => t.ReviewBookID == Id).ToList();
 
             foreach (var review in BookReviews)
             {
                 _dbContext.Review.Remove(review);
             }
 
-            _dbContext.Book.Remove(entity);
+            _dbContext.Book.Remove(_dbContext.Book.Find(Id));
             var result = await _dbContext.SaveChangesAsync() > 0 ? true : false;
             return result;
         }

@@ -14,9 +14,9 @@ namespace BookShop.DL.Repository
             _dbContext = dbContext;
         }
 
-        public async Task<bool> DeleteAsync(Review entity)
+        public async Task<bool> DeleteAsync(int Id)
         {
-            _dbContext.Review.Remove(entity);
+            _dbContext.Review.Remove(_dbContext.Review.Find(Id));
             var result = await _dbContext.SaveChangesAsync() > 0 ? true : false;
             return result;
         }
